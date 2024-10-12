@@ -222,3 +222,98 @@
 /////////////////////////Pop, Unshift////////////////////////////
 
 //1-misol;
+
+// let massiv = [1, 2, 3, 4, 5];
+
+// massiv.unshift("salom");
+
+// console.log(massiv);
+
+//2-misol;
+
+// let massiv = [1, 2, 3, 4, 5];
+
+// massiv.pop();
+
+// console.log(massiv);
+
+//3-misol;
+
+// let massiv = [1, 2, 3, 4, 5];
+
+// massiv.unshift("salom", "Alisher");
+// massiv.pop();
+// massiv.push("olim");
+// massiv.shift();
+
+// console.log(massiv);
+
+/////////////////////////Qiyinroq masalalar////////////////////////////
+
+//2-misol;
+
+// let massiv1 = [1, "salom", 3, "olim", 5];
+// let massiv2 = ["Alisher", 7, "ustoz", "najot", 10];
+
+// let massiv = massiv1.concat(massiv2);
+
+// let son = massiv.filter((element) => typeof element === "number");
+
+// console.log(son);
+
+//3-misol;
+
+// let massiv = ["salom", "Alisher", "ustoz"];
+// let qidirilayotganElement = "Alisher";
+// let yangiElement = "najot";
+
+// let index = massiv.indexOf(qidirilayotganElement);
+
+// if (index !== -1) {
+//   massiv.splice(index, 1);
+//   console.log(`${qidirilayotganElement} elementi massivdan olib tashlandi`);
+// } else {
+//   massiv.push(yangiElement);
+//   console.log(
+//     `${qidirilayotganElement} elementi topilmadi ${yangiElement} massivga qo'shildi`
+//   );
+// }
+
+// console.log(massiv);
+
+//4-misol;
+
+// let massiv = [1, 2, 3, 1, 4, 5];
+// let qidirilayotganElement = 1;
+
+// let index1 = massiv.indexOf(qidirilayotganElement);
+// let index2 = massiv.lastIndexOf(qidirilayotganElement);
+
+// let yangiMassiv = massiv.slice(index1, index2 + 1);
+
+// console.log(yangiMassiv);
+
+//5-misol;
+
+// let massiv = [3, "salom", 1, "olam", 2, "ustoz"];
+
+// let sonlar = [];
+// let sozlar = [];
+
+// for (let i = 0; i < massiv.length; i++) {
+//   if (typeof massiv[i] === "number") {
+//     sonlar.push(massiv[i]);
+//   } else {
+//     sozlar.push(massiv[i]);
+//   }
+// }
+
+// sonlar.sort(function (a, b) {
+//   return a - b;
+// });
+
+// sozlar.reverse();
+
+// let natija = sonlar.concat(sozlar);
+
+// console.log(natija);
