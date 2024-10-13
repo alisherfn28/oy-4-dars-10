@@ -132,6 +132,14 @@
 
 // console.log(tsk);
 
+//2-misol;
+
+// let str = "salom";
+
+// let arr = str.split("").reverse().join("");
+
+// console.log(arr);
+
 //3-misol;
 
 // let massiv = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -250,6 +258,20 @@
 
 /////////////////////////Qiyinroq masalalar////////////////////////////
 
+//1-misol;
+
+// let arr = [1, 3, 6, 8, 7];
+
+// if (arr.length % 2 == 1) {
+//   arr.splice(Math.trunc(arr.length / 2), 1);
+//   console.log(arr);
+// } else {
+//   let first = arr.slice(0, Math.trunc(arr.length / 2));
+//   let last = arr.slice(Math.trunc(arr.length / 2));
+//   console.log(first);
+//   console.log(last);
+// }
+
 //2-misol;
 
 // let massiv1 = [1, "salom", 3, "olim", 5];
@@ -317,3 +339,50 @@
 // let natija = sonlar.concat(sozlar);
 
 // console.log(natija);
+
+//6-misol;
+
+// let massiv = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// for (let i = 0; i < massiv.length; i++) {
+//   massiv[i] *= 2;
+// }
+
+// massiv.toString();
+// console.log(massiv);
+
+//8-misol;
+
+// let massiv = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// massiv.pop();
+// massiv.shift();
+
+// let matn = massiv.join(":");
+
+// console.log(matn);
+
+//9-misol;
+
+// let massiv = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// massiv.push(43);
+// massiv.unshift(31);
+// massiv.sort((a, b) => a - b);
+// let oxirgiUchta = massiv.slice(massiv.length - 3);
+
+// console.log(oxirgiUchta);
+
+// 10 - misol;
+
+// let massiv = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// massiv.reverse();
+
+// massiv.splice(0, 2);
+
+// massiv.splice(massiv.length - 3, 3);
+
+// massiv.sort((a, b) => a - b);
+
+// console.log(massiv);
